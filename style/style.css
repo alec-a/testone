@@ -1,3 +1,8 @@
-body {font-family: Helvetica;}
-#main_wrap{width:900px; margin:0 auto;text-align:center;}
-#wrapper{text-align:left;}
+body {font-family: Helvetica; background-color:#f00}
+#main_wrap{width:900px; margin:0 auto; text-align:center;}
+#wrapper{text-align:left; position:absolute; top:3px; background-color:#fff; width:900px;}
+#left{position relative; float:left;}
+#right{position relative; float:right;}
+.clear{clear:both;}
+#footer{position:relative;background-color:#0f0;margin-top:20px;}
+
